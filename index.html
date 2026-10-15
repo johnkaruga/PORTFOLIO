@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="John's Information Technology portfolio">
+  <title>John Njuguna | IT Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="John Njuguna home">JN<span>.</span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav id="site-nav" aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact" class="nav-contact">Contact</a>
+    </nav>
+  </header>
+  
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> INFORMATION TECHNOLOGY</p>
+        <h1>Hi, I'm <span>John Njuguna.</span><br>I make technology work for people.</h1>
+        <p class="intro">I’m an IT professional interested in solving practical technology problems. This portfolio is a home for my projects, skills, and experience.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">Explore my work <span aria-hidden="true">↘</span></a>
+          <a class="text-link" href="#contact">Get in touch <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+      <div class="hero-card" aria-label="IT portfolio graphic">
+        <div class="card-top"><span></span><span></span><span></span><small>tech-notes.txt</small></div>
+        <div class="terminal">
+          <p><span class="code-muted">01</span> <span class="code-purple">const</span> focus = [</p>
+          <p><span class="code-muted">02</span> &nbsp;<span class="code-green">"IT support"</span>,</p>
+          <p><span class="code-muted">03</span> &nbsp;<span class="code-green">"networks"</span>,</p>
+          <p><span class="code-muted">04</span> &nbsp;<span class="code-green">"learning"</span></p>
+          <p><span class="code-muted">05</span> ];</p>
+          <p class="terminal-cursor"><span class="code-muted">06</span> <span class="cursor">▍</span></p>
+        </div>
+        <div class="hero-card-foot"><span>CURIOUS BY NATURE</span><span>BUILDING SKILLS <b>↗</b></span></div>
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+      </div>
+      <a class="scroll-hint" href="#about"><span></span> SCROLL TO DISCOVER</a>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="section-label"><span>01</span> / ABOUT ME</div>
+      <div class="section-content">
+        <h2>Technology is at its best when it <em>makes life easier.</em></h2>
+        <div class="about-columns">
+          <p>I’m building my career in Information Technology, with an interest in helping people use reliable, secure systems. I enjoy learning how things work and turning that knowledge into clear, useful solutions.</p>
+          <p>This site will grow as I do. Here you’ll find hands-on projects, learning notes, and examples of the problems I’ve worked through. <span class="editable-note">Replace this text with a few details about your background and the IT work you want to do.</span></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills" id="skills">
+      <div class="section-label"><span>02</span> / SKILLS</div>
+      <div class="section-content">
+        <div class="heading-row"><h2>Tools in my <em>toolkit.</em></h2><p>Add or remove skills to match what you know.</p></div>
+        <div class="skill-grid">
+          <article class="skill-card"><span class="skill-icon">01</span><h3>IT Support</h3><p>Troubleshooting · User support · System setup</p></article>
+          <article class="skill-card"><span class="skill-icon">02</span><h3>Networking</h3><p>Network fundamentals · Connectivity · Configuration</p></article>
+          <article class="skill-card"><span class="skill-icon">03</span><h3>Web Basics</h3><p>HTML · CSS · JavaScript</p></article>
+          <article class="skill-card"><span class="skill-icon">04</span><h3>Security</h3><p>Safe computing · Access control · Best practices</p></article>
+          <article class="skill-card"><span class="skill-icon">05</span><h3>Telematics</h3><p>Fuel monitoring · Vehicle tracking · Fleet data</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects" id="projects">
+      <div class="section-label"><span>03</span> / SELECTED WORK</div>
+      <div class="section-content">
+        <div class="heading-row"><h2>Things I’ve <em>worked on.</em></h2><p>Practice projects count too. Share what you learned.</p></div>
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-visual visual-network"><span class="node n1"></span><span class="node n2"></span><span class="node n3"></span><span class="node n4"></span><span class="network-line l1"></span><span class="network-line l2"></span><span class="network-line l3"></span><span class="visual-caption">NETWORK / 001</span></div>
+            <div class="project-info"><div class="project-meta"><span>NETWORKING</span><span>01 — 03</span></div><h3>Home Network Plan</h3><p>A practice design for a small home network, including a device map and basic security choices.</p><a href="#contact" class="project-link">View project details <span>↗</span></a></div>
+          </article>
+          <article class="project-card">
+            <div class="project-visual visual-code"><span class="code-window">&lt;helpdesk&gt;<br><i>clear answers</i><br>&lt;/helpdesk&gt;</span><span class="visual-caption">WEB / 002</span></div>
+            <div class="project-info"><div class="project-meta"><span>WEB DEVELOPMENT</span><span>02 — 03</span></div><h3>IT Helpdesk Guide</h3><p>A simple web page collecting clear, step-by-step answers to common technology questions.</p><a href="#contact" class="project-link">View project details <span>↗</span></a></div>
+          </article>
+          <article class="project-card">
+            <div class="project-visual visual-shield"><div class="shield">✓</div><span class="visual-caption">SECURITY / 003</span></div>
+            <div class="project-info"><div class="project-meta"><span>CYBERSECURITY</span><span>03 — 03</span></div><h3>Security Checklist</h3><p>A personal checklist for safer accounts and devices, based on practical security fundamentals.</p><a href="#contact" class="project-link">View project details <span>↗</span></a></div>
+          </article>
+        </div>
+        <p class="project-note">These are starter examples. Swap in your real work, screenshots, and links when ready.</p>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="contact-inner">
+        <div class="section-label"><span>04</span> / CONTACT</div>
+        <div class="contact-body"><p class="eyebrow">HAVE A PROJECT OR OPPORTUNITY?</p><h2>Let’s start a <em>conversation.</em></h2><p>I’m open to connecting about IT opportunities, projects, and learning.</p><div class="contact-actions"><a class="button light" href="mailto:johnnjuguna79@gmail.com">Email me <span>↗</span></a><a class="button whatsapp" href="https://wa.me/254758541230" target="_blank" rel="noopener noreferrer">WhatsApp me <span>↗</span></a></div></div>
+      </div>
+    </section>
+  </main>
+
+  <footer><a class="brand" href="#home">JN<span>.</span></a><p>Designed and built with HTML, CSS & JavaScript.</p><a class="back-top" href="#home">BACK TO TOP ↑</a><span class="copyright">© <span id="year"></span> JOHN NJUGUNA</span></footer>
+</body>
+</html>
